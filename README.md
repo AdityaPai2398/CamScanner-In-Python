@@ -1,7 +1,8 @@
 # CamScanner-In-Python
 Build your own document scanner with OpenCV Python
 
-### Video DEMO and TUTORIAL : 
+Video DEMO and TUTORIAL : 
+
 ## What is this ?
 The script takes an image as input and then scans the document from the image by applying few image processing techniques and gives the output image with scanned effect
 
@@ -15,3 +16,8 @@ Initially we need to resize the images so OpenCV can handle it and then the foll
 
 ## This is shit, why did you build this?
 I was BORED :/ 
+
+# INSTALLATION 
+```
+pip install opencv-python
+```
