@@ -15,7 +15,7 @@ edged=cv2.Canny(blurred,30,50)  #30 MinThreshold and 50 is the MaxThreshold
 cv2.imshow("Canny",edged)
 
 
-image,contours,hierarchy=cv2.findContours(edged,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE)  #retrieve the contours as a list, with simple apprximation model
+contours,hierarchy=cv2.findContours(edged,cv2.RETR_LIST,cv2.CHAIN_APPROX_SIMPLE)  #retrieve the contours as a list, with simple apprximation model
 contours=sorted(contours,key=cv2.contourArea,reverse=True)
 
 #the loop extracts the boundary contours of the page
