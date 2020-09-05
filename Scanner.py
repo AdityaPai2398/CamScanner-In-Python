@@ -35,6 +35,9 @@ dst=cv2.warpPerspective(orig,op,(800,800))
 
 
 cv2.imshow("Scanned",dst)
+# press q or Esc to close
+cv2.waitKey(0)
+cv2.destroyAllWindows()
 
     
         
